@@ -2,8 +2,6 @@ name: Debby
 description: A dbt linter
 author: Tom Waterman
 
-inputs:
-
 runs:
   using: 'docker'
   image: 'Dockerfile'
