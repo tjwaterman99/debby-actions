@@ -2,7 +2,7 @@ FROM python:3.13-slim
 
 WORKDIR /app
 
-RUN pip install --no-cache-dir debby-cli==0.1.0
+RUN pip install --no-cache-dir debby-cli==0.2.0
 
 COPY entrypoint.sh /entrypoint.sh
 
