@@ -23,5 +23,5 @@ jobs:
       - run: dbt parse 
       
       # run the action
-      - uses: tjwaterman99/debby-actions@v0.2.0
+      - uses: tjwaterman99/debby-actions@v0.2.1
 ```
